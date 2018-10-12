@@ -1,6 +1,8 @@
 ---
 - name: Copy a single file
   hosts: all
-  win_copy:
-    src: \\ahwfilmvd015\software\Cylance\wDjWR00eBJ8V1tKUO98sJkKo.txt
-    dest: c:\Temp\renamed-foo.conf
+  tasks:
+    - name: CopyFile
+      win_copy:
+        src: \\ahwfilmvd015\software\Cylance\wDjWR00eBJ8V1tKUO98sJkKo.txt
+        dest: c:\Temp\renamed-foo.conf
