@@ -5,5 +5,5 @@
     - name: CopyFile
       win_copy:
         remote_src: yes
-        src: ahwfilmvd015\software\Cylance\wDjWR00eBJ8V1tKUO98sJkKo.txt
+        src: \ahwfilmvd015\software\Cylance\wDjWR00eBJ8V1tKUO98sJkKo.txt
         dest: 'c:\Temp\renamed-foo.conf'
